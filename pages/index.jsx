@@ -26,14 +26,15 @@ export default function Index() {
               Invite Coinopolis
             </a>
           </Link>
-          <div className="py-10"></div>
           <Link href={"https://top.gg/bot/1229707669049180161/vote"}>
-            <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white "}>
-              Vote Coinopolis</a>
+            <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white "}>
+              Vote Coinopolis
+            </a>
           </Link>
           <Link href={"https://coinopolis.vercel.app/commands"}>
-            <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white "}>
-              Coinopolis Commands</a>
+            <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white "}>
+              Coinopolis Commands
+            </a>
           </Link>
         </div>
 
