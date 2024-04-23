@@ -166,7 +166,7 @@ const Header = ({ $, NavItems }) => {
                                 </Menu.Items>
                             </Transition>
                         </Menu>
-                        <Link href="https://discord.com/oauth2/authorize?client_id=1229707669049180161&permissions=2056&scope=applications.commands+bot">
+                        <Link href="https://discord.com/oauth2/authorize?client_id=1229707669049180161&scope=applications.commands+bot&permissions=414736444608">
                             <a className="w-auto flex items-center justify-center shadow-lg gap-x-2 shadow-amber-600/20 rounded-xl py-2.5 font-medium px-7 bg-gradient-to-tl from-amber-500 to-amber-700 text-white  hover:opacity-80 transition duration-200">
                                Invite
                             </a>

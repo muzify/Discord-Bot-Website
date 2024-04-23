@@ -48,7 +48,7 @@ export default function Footer() {
                                 </a>
                             </div>
                             <div>
-                                <a href="https://discord.com/oauth2/authorize?client_id=1229707669049180161&permissions=2056&scope=applications.commands+bot" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                <a href="https://discord.com/oauth2/authorize?client_id=1229707669049180161&scope=applications.commands+bot&permissions=414736444608" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
                                     Invite Bot
                                 </a>
                             </div>
