@@ -3,32 +3,54 @@ import Link from "next/link";
 
 export default function Commands() {
 const commands = [
-  "/autoplay",
-  "/back",
-  "/statistic",
-  "/channel",
-  "/clear",
-  "/dj",
-  "/filter",
-  "/help",
-  "/language",
-  "/loop",
-  "/nowplaying",
-  "/pause",
+  "/addmoney",
+  "/addmoneyowner",
+  "/balance",
+  "/bear",
+  "/beg",
+  "/blackjack",
+  "/bounty",
+  "/cat",
+  "/coinflip",
+  "/crime",
+  "/daily",
+  "/dice",
+  "/dog",
+  "/find",
+  "/fish",
+  "/free",
+  "/give",
+  "/godly",
+  "/hangman",
+  "/heist",
+  "/higherlower",
+  "/hourly",
+  "/hunt",
+  "/leaderboard",
+  "/leaderboardall",
+  "/mining",
+  "/monthly",
+  "/pay",
   "/ping",
-  "/play",
-  "/playlist",
-  "/queue",
-  "/resume",
-  "/save",
-  "/search",
-  "/seek",
-  "/servers",
-  "/shuffle",
-  "/skip",
-  "/stop",
-  "/time",
-  "/volume"
+  "/profile",
+  "/rank",
+  "/rep",
+  "/resetdb",
+  "/resetdball",
+  "/restart",
+  "/richest",
+  "/rob",
+  "/robbery",
+  "/searching",
+  "/ship",
+  "/slots",
+  "/snake",
+  "/snipe",
+  "/stats",
+  "/update",
+  "/weekly",
+  "/work",
+  "/yearly"
 ];
 
   return (
@@ -42,7 +64,7 @@ const commands = [
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the MusicMaker Bot.
+        You can get information about the commands of the Coinopolis Bot.
         </p>
 
         <div>
@@ -89,23 +111,23 @@ const commands = [
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=applications.commands%20bot"}>
+  <Link href={"https://discord.com/oauth2/authorize?client_id=1229707669049180161&permissions=2056&scope=applications.commands+bot"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Invite MusicMaker</a>
+Invite Coinopolis</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://discord.gg/ZcDprCrFTn"}>
+  <Link href={"https://discord.gg/7We7rMRmVa"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Support Server</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://top.gg/bot/774043716797071371/vote"}>
+  <Link href={"https://top.gg/bot/1229707669049180161/vote"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote MusicMaker</a>
+Vote Coinopolis</a>
   </Link>
 </div>
 
