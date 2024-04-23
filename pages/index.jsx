@@ -26,11 +26,13 @@ export default function Index() {
               Invite Coinopolis
             </a>
           </Link>
+          <div className="px-2"></div> {/* Add a spacer */}
           <Link href={"https://top.gg/bot/1229707669049180161/vote"}>
             <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white "}>
               Vote Coinopolis
             </a>
           </Link>
+          <div className="px-2"></div> {/* Add a spacer */}
           <Link href={"https://coinopolis.vercel.app/commands"}>
             <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white "}>
               Coinopolis Commands
@@ -45,8 +47,6 @@ export default function Index() {
           <Image width="600" height="600" src="/img/gift-right.png" />
         </div>
       </div>
-
-
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 py-24">
         <div className="col-span-4">
