@@ -35,7 +35,7 @@ export default function Index() {
           <div className="px-2"></div> {/* Add a spacer */}
           <Link href={"https://coinopolis.vercel.app/commands"}>
             <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white "}>
-              Coinopolis Commands
+              Commands
             </a>
           </Link>
         </div>
